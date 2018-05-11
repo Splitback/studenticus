@@ -1,4 +1,51 @@
 * {
-  font-family: "Oxygen";
+  font-family: "Oxygen", "Helvetica";
   text-align: center;
+
+}
+
+body {
+  background-color: #d0d6e0;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #EFEFEF;
+}
+
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+
+}
+
+h1 {
+  border: 2px solid #A9A9A9;
+  border-width: thick;
+  border-radius: 5px;
+  font-family: "Lato";
+  font-size: 60px;
+  color: #FF383F;
+}
+
+h2 {
+  font-size: 40px;
+  color: black;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    color: #FF383F;
 }
