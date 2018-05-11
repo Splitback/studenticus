@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #d0d6e0;
+  background-color: #f1f0ee;
   margin-left: 25px;
   margin-right: 25px;
   padding-left: 10px;
@@ -17,7 +17,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #EFEFEF;
+    background-color: white;
 }
 
 
@@ -25,9 +25,11 @@ li a {
     display: block;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 16px 14px;
     text-decoration: none;
     float: left;
+    margin-left: 0px;
+    margin-right: 0px;
 
 }
 
@@ -38,6 +40,9 @@ h1 {
   font-family: "Lato", "Helvetica", "Oxygen";
   font-size: 60px;
   color: #FF383F;
+  padding: auto;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 h2 {
@@ -48,4 +53,8 @@ h2 {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     color: #FF383F;
+}
+
+.bottom {
+  margin-bottom: 50px;
 }
